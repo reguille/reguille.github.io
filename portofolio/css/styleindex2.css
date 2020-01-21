@@ -1,0 +1,36 @@
+
+body {
+  height: 100%;
+  padding-top: 10px;
+  background-image: url('../plaatjes/lasvegas.jpg');
+ background-size:auto;
+ background-position: center center;
+ position: relative;
+ top: 0;
+ bottom:0;
+ height:100vh;
+ z-index:-10;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+#hero-overlay {
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  top: 0;
+  bottom:0;
+  height:100%;
+  width:100%;
+  z-index:-5;
+
+}
+h1 { 
+  color: white;
+}
+
+p  {
+  color: white;
+  background-color: black;
+}
+
+
